@@ -1,0 +1,64 @@
+* {
+body { 
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 2rem;
+  align-items: center;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+#todo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400pt;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border: 2pt solid black;
+  
+}
+.input-item {
+  font-size: 1.5rem;
+  text-align: l;
+  padding: .3rem;
+}
+#input-button {
+  font-size: 1.5rem;
+  padding: .3rem;
+  border: 2pt solid black;
+  color: white;
+  background-color: navy;
+  
+}
+
+#list-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 20pt;
+  padding-bottom: auto;
+}
+
+label { 
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+  border: 1px solid gray;
+}
+
+.counter-container {
+  display: flex;
+  justify-items: space-between;
+  font-size: 1.5rem;
+  padding: .3rem;
+}
+
+}
+
